@@ -1,0 +1,7 @@
+[base]
+packages:
+ pcstick
+uri: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+
+[upstream]
+exclude:

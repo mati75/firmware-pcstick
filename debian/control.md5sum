@@ -1,0 +1,4 @@
+22dd9715b227b7885e75c27c913da7a8  debian/bin/gencontrol.py
+cd4a5187fcd323db758b6228b85154cb  debian/config/defines
+3fadd015c46be4a1d9e442fae0075b84  debian/config/pcstick/defines
+8cba1397cda6386db37210439a0da3eb  debian/config/pcstick/LICENSE

@@ -1,0 +1,9 @@
+.NOTPARALLEL:
+binary-arch_%::
+	@true
+binary-indep::
+	$(MAKE) -f debian/rules.real binary-indep FILES='brcm/brcmfmac43430a0-sdio.bin:brcm/brcmfmac43430a0-sdio.bin brcm/brcmfmac43430a0-sdio.txt:brcm/brcmfmac43430a0-sdio.txt' LINKS='' PACKAGE='pcstick'
+build_%::
+	@true
+setup_%::
+	@true

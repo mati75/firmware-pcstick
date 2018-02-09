@@ -1,0 +1,11 @@
+[base]
+desc: Broadcom 802.11 wireless cards
+files:
+ brcm/brcmfmac43430a0-sdio.bin
+ brcm/brcmfmac43430a0-sdio.txt
+longdesc: wireless network cards supported by the brcmsmac or brcmfmac driver
+breaks: firmware-brcm80211 (>= 20171125~)
+conflict: firmware-brcm80211 (>= 20171125~)
+
+[brcm/brcmfmac43430a0-sdio.bin_base]
+desc: Broadcom BCM43430a0 firmware
